@@ -8,6 +8,7 @@
         a.btn--orange {
           color: #fff;
           background-color: #eb6100;
+	  
         }
         .btn--orange:hover,
         a.btn--orange:hover {
@@ -17,8 +18,10 @@
     </style>
 </head>
 <body>
+<div class="area">
 <h1>じゃんけんの手を認識</h1>
-<button type="button" onclick="init()" class="btn btn--orange>判定</button>
+<button type="button" class="btn btn--orange onclick="init()">判定</button>
+<div>
 <div id="webcam-container"></div>
 <div id="label-container"></div>
 </body>
